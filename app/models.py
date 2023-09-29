@@ -5,4 +5,8 @@ class Book(Document):
     title = StringField(required=True)
     author = StringField(required=True)
     genre = StringField()
-
+    description = StringField()
+    cover_image = StringField()
+    publication_year = IntField()
+    pages = IntField()
+    isbn = StringField()
